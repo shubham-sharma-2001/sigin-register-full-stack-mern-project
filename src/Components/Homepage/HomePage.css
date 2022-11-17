@@ -1,0 +1,36 @@
+.Homepageofficial{
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+    position: relative;
+    margin-top: 10%;
+
+}
+.homepage{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+
+    flex-direction: column;
+    box-shadow: 1px -25px 206px 24px rgba(0,0,0,0.45),
+25px 0px 20px -20px rgba(0,0,0,0.45),
+0px 25px 20px -20px rgba(0,0,0,0.45),
+-25px 0px 20px -20px rgba(0,0,0,0.45);
+border-radius: 10px;
+}
+.homepage .button{
+    background-color: #8D9EFF;
+    border: #8D9EFF;
+    color: white;
+    width: 10%;
+    border-radius: 12px;
+    height: 10%;
+    cursor: pointer;
+}
+h1{
+    color: black;
+}
